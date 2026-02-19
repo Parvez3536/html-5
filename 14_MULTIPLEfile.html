@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>multipal file tag</title>
+</head>
+<body>
+    <form action="success.html">
+        <table border="1" cellpadding="10" cellspacing="5" align="center" width="45%">
+            <tr>
+                <th align="center" colspan="2">compose email</th>
+            </tr>
+            <tr>
+                <td>email</td>
+                <td><input type="email" name="email" id="email" required placeholder="enter your email"></td>
+            </tr>
+            <tr>
+                <td>subject</td>
+              <td><input type="text" name="email subject" id="subject" placeholder="enter email subject"></td>
+            </tr>
+            <tr>
+                <td colspan="2">attchment
+                    <input type="file" name="attchement" id="attchment" multiple accept=".doc,.xlx,.xlsx,.ppt,.jpg,.img">
+                </td>            
+            </tr>
+            <tr>
+                <td colspan="2">
+                <button type="submit">send email</button>
+                <button type="reset">clear all</button>
+                <button type="button">i don't do anymore</button></td>
+            </tr>
+
+        </table>
+    </form>
+</body>
+</html>
